@@ -1,0 +1,41 @@
+<dependencies>
+    <androidPackages>
+        <androidPackage spec="com.google.android.material:material:1.4.0">
+            <androidSdkPackageIds>
+                <androidSdkPackageId>extra-google-m2repository</androidSdkPackageId>
+            </androidSdkPackageIds>
+            <repositories>
+                <repository>https://maven.google.com</repository>
+            </repositories>
+        </androidPackage>    
+
+        <androidPackage spec="androidx.appcompat:appcompat:1.3.1">
+            <androidSdkPackageIds>
+                <androidSdkPackageId>extra-google-m2repository</androidSdkPackageId>
+            </androidSdkPackageIds>
+            <repositories>
+                <repository>https://maven.google.com</repository>
+            </repositories>
+        </androidPackage>
+
+        <androidPackage spec="com.google.android.play:core:1.10.2">
+            <androidSdkPackageIds>
+                <androidSdkPackageId>extra-google-m2repository</androidSdkPackageId>
+            </androidSdkPackageIds>
+            <repositories>
+                <repository>https://maven.google.com</repository>
+            </repositories>
+        </androidPackage>
+
+        <androidPackage spec="androidx.legacy:legacy-support-v4:1.0.0">
+            <androidSdkPackageIds>
+                <androidSdkPackageId>extra-google-m2repository</androidSdkPackageId>
+            </androidSdkPackageIds>
+            <repositories>
+                <repository>https://maven.google.com</repository>
+            </repositories>
+        </androidPackage>
+    </androidPackages>
+    <iosPods>
+    </iosPods>
+</dependencies>
